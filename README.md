@@ -1,4 +1,4 @@
-# 分享
+# 个人的静态网页
 
 很高兴来做个分享,其实我也想用英文来分享,因为我的普通话也不是很好,
 
@@ -22,17 +22,15 @@
   然后在命令行进入share 执行
   ```
     vuepress build docs
-
   ```
-  然后进入 docs/.vuepress
-  创建config.js
+  然后进入 创建config.js
   ```javascript
     module.exports = {
     title: 'RaymondHone Share',  // 设置网站标题
     description : 'Personal'
   }
   ```
-  然后回到 share文件夹下 修改README.md 就是这个网页
+  修改README.md 就是这个网页
 
   改完就在Git Bash 进入 share 执行
   ```
@@ -41,7 +39,7 @@
   ```
   然后提交到github 
   再部署:
-  *如果发布到 https://<USERNAME>.github.io/<REPO>*
+  *如果发布到 https://**USERNAME**.github.io/**REPO***
   ```
   git push -f git@github.com:Raymond-Hong/share.git master:gh-pages
   ```
