@@ -3,7 +3,8 @@ module.exports = {
   description : 'Personal',
   themeConfig: {
       nav: [
-        { text: 'Home', link: '/' }
+        { text: 'Home', link: '/' },
+        { text: 'hh', link: '/source' },
       ]
     }
 }
