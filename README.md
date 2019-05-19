@@ -23,13 +23,6 @@
   ```
     vuepress build docs
   ```
-  然后进入 创建config.js
-  ```javascript
-    module.exports = {
-    title: 'RaymondHone Share',  // 设置网站标题
-    description : 'Personal'
-  }
-  ```
   修改README.md 就是这个网页
 
   改完就在Git Bash 进入 share 执行
